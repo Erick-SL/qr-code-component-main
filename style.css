@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+}
+
+section{
+    background-color: #D5E1EF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section #box{
+    width: 288px;
+    height: 455px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+section #box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+article.info h4{
+    font-size: 20px;
+    color: #1F314F;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+article.info p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+article.info{
+    text-align: center;
+    margin: 18px;
+}
